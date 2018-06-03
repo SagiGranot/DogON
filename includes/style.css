@@ -62,11 +62,14 @@ li{
 	width:1200px;
 	height: 20px;
 	background-color: #3b3b3b;
+	color: #FFFFFF;
 }
 #mainNav li{
 	text-align: center;
-	color: #FFFFFF;
 	font-size: 13px;
-	width: 109px;
+	width: 106px;
+}
+#mainNav span{
+	float: right;
 }
 
