@@ -1,0 +1,72 @@
+* {margin:0; padding:0;}
+header, main, footer,section,nav{
+	display:block;
+}
+.clear{
+	clear: both;
+}
+body{
+	background-color: #fbfbfb;
+	direction: rtl;
+}
+header{
+	width: 1200px;
+	height: 174px;
+	padding-top: 16px;
+}
+li{
+	float: right;
+	list-style-type: none;
+}
+#logoBar{
+	position: relative;
+	width: 1200px;
+	height: 52px;
+	margin-top: 67px;
+	background-color: #ebebeb;
+}
+#theLogo{
+	position: absolute;
+	top: -25px;
+	margin-right: 45px;
+	width: 217px;
+	height: 85px;
+	background: url(../images/ClinicON-logo.png) no-repeat;
+	background-size: 217px 85px;
+}
+#logoBar > * {
+	position: absolute;
+	bottom: 10px;
+}
+#tools{
+	direction: ltr;
+	float:left;
+}
+#theSearch{
+	right: 400px;
+}
+#logoNav{
+	right: 750px;
+}
+#logoNav li{
+	width: 100px;
+}
+#logOut{
+	text-align: center;
+	color: #a77a23;
+	border:1px solid;
+	border-color: #a77a23;
+	border-radius: 5px;
+}
+#mainNav{
+	width:1200px;
+	height: 20px;
+	background-color: #3b3b3b;
+}
+#mainNav li{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 13px;
+	width: 109px;
+}
+
