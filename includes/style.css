@@ -2,6 +2,11 @@
 header, main, footer,section,nav{
 	display:block;
 }
+a{
+	text-decoration: none;
+	color:#000000;
+}
+
 .clear{
 	clear: both;
 }
