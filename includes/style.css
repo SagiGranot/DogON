@@ -11,7 +11,6 @@ body{
 }
 header{
 	width: 1200px;
-	height: 174px;
 	padding-top: 16px;
 }
 li{
@@ -26,13 +25,12 @@ li{
 	background-color: #ebebeb;
 }
 #theLogo{
-	position: absolute;
-	top: -25px;
+	top: -42px;
 	margin-right: 45px;
-	width: 217px;
-	height: 85px;
+	width: 220px;
+	height: 110px;
 	background: url(../images/ClinicON-logo.png) no-repeat;
-	background-size: 217px 85px;
+	background-size: 220px 110px;
 }
 #logoBar > * {
 	position: absolute;
@@ -72,4 +70,46 @@ li{
 #mainNav span{
 	float: right;
 }
-
+.mainBox{
+	position: relative;
+	float: right;
+	background-color: #e4e4e4;
+	margin: 16px;
+}
+#calendar{
+	width: 563px;
+	height: 808px;
+}
+#clients{
+	width: 563px;
+	height: 185px;
+}
+#animals{
+	width: 563px;
+	height: 185px;
+}
+.darkArea{
+	height: 45px;
+	background-color: #a4a4a4;
+}
+.icon{
+	margin:7px;
+}
+.smallBoxes{
+	position: absolute;
+	right: 220px;
+	top: 13px;
+	width: 350px;
+	height: 55px;
+}
+.smallBox{
+	margin: 10px;
+	float: right;
+	width: 143px;
+	height: 34px;
+	background-color: #c0c0c0;
+	text-align: center;
+}
+.addNew{
+	background-color: #ffc95f;
+}
