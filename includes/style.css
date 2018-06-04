@@ -5,6 +5,9 @@ header, main, footer,section,nav{
 .clear{
 	clear: both;
 }
+main{
+	position: relative;
+}
 body{
 	background-color: #fbfbfb;
 	direction: rtl;
@@ -118,6 +121,6 @@ li{
 .addNew{
 	background-color: #ffc95f;
 }
-main{
-	position: relative;
+#centerText{
+	margin: 6px;
 }
