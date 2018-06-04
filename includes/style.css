@@ -10,12 +10,10 @@ a{
 .clear{
 	clear: both;
 }
-main{
-	position: relative;
-}
 body{
 	background-color: #fbfbfb;
 	direction: rtl;
+	font-family: 'Rubik', sans-serif;
 }
 header{
 	width: 1200px;
@@ -24,6 +22,9 @@ header{
 li{
 	float: right;
 	list-style-type: none;
+}
+main{
+	position: relative;
 }
 #logoBar{
 	position: relative;
@@ -77,6 +78,9 @@ li{
 }
 #mainNav span{
 	float: right;
+}
+#breadcrumbs{
+	width: 1200px;
 }
 .mainBox{
 	position: relative;
