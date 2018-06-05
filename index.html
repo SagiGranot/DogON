@@ -13,7 +13,7 @@
 		<section id="logoBar">
 			<span id="theLogo"></span>
 			<span id="theSearch">
-				<label><input name=״search" title="search for clients and patients" placeholder="חיפוש"></label>
+				<label><input name="search" title="search for clients and patients" placeholder="חיפוש"></label>
 			</span>
 			<nav id="logoNav">
 				<ul>
@@ -42,13 +42,21 @@
 		</nav>
 	</header>
 	<main>
-		<section id="breadcrumbs">
+		<span id="breadcrumbs">
 			<a href="#">דף הבית</a>
-		</section>
+		</span>
 		<div id="calendar" class="mainBox">
 			<section class="darkArea">
 				<i class="fa fa-calendar fa-2x icon" aria-hidden="true"></i>
 				<b>יומן</b>
+			</section>
+			<section id="selectCal">
+				<div>
+					:מרפאה<br><br><br>:רופא
+				</div>
+				<span>
+					
+				</span>
 			</section>
 		</div>
 		<div id="clients" class="mainBox">
@@ -64,6 +72,7 @@
 				<i class="fa fa-user fa-2x icon" aria-hidden="true"></i>
 				<b>לקוחות</b>
 			</section>
+			<label><input name="search" title="search for clients and patients" placeholder="חיפוש לפי שם לקוח" class="boxSearch"></label>
 		</div>
 		<div id="animals" class="mainBox">
 			<div class="smallBoxes">
@@ -78,8 +87,10 @@
 				<i class="fa fa-paw fa-2x icon" aria-hidden="true"></i>
 				<b>בעלי חיים</b>
 			</section>
+			<label><input name="search" title="search for clients and patients" placeholder="חיפוש לפי בעל חיים" class="boxSearch"></label>
 		</div>
+		<div class="clear"></div>
 	</main>
-	<footer></footer>
+	<footer>&copy;כל הזכויות שמורות</footer>
 </body>
 </html>

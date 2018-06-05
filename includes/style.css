@@ -23,8 +23,25 @@ li{
 	float: right;
 	list-style-type: none;
 }
+input{
+	border: 1px solid #ccc;
+	-moz-border-radius: 10px;
+  	-webkit-border-radius: 10px;
+ 	border-radius: 10px;
+    padding: 4px 7px;
+    background: url(../images/searchIcon.png) no-repeat;
+    background-size: 15px 13px;
+    background-position: left;
+    background-color: #ffffff;
+    outline: 0;
+}
+input:focus{
+	background: url();
+	background-color: #ffffff;
+}
 main{
 	position: relative;
+	height: 880px;
 }
 #logoBar{
 	position: relative;
@@ -74,10 +91,12 @@ main{
 #mainNav li{
 	text-align: center;
 	font-size: 13px;
-	width: 106px;
+	width: 104px;
+	margin-top: 3px;
 }
 #mainNav span{
 	float: right;
+	font-size: 17px;
 }
 #breadcrumbs{
 	width: 1200px;
@@ -91,6 +110,15 @@ main{
 	position: absolute;
 	width: 563px;
 	height: 808px;
+}
+#selectCal > div{
+	direction: ltr;
+	width: 71px;
+	margin-top: 60px;
+}
+#selectCal > span{
+	width: 71px;
+	margin-top: 60px;
 }
 #clients{
 	position: absolute;
@@ -132,4 +160,14 @@ main{
 }
 #centerText{
 	margin: 6px;
+}
+footer{
+	width: 1200px;
+	background-color: #a4a4a4;
+	text-align: center;
+}
+.boxSearch{
+	margin-top: 59px;
+	margin-right: 64px;
+	width: 250px;
 }
