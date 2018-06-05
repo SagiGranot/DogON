@@ -31,7 +31,7 @@ input{
     padding: 4px 7px;
     background: url(../images/searchIcon.png) no-repeat;
     background-size: 15px 13px;
-    background-position: left;
+    background-position: 2% 50%;
     background-color: #ffffff;
     outline: 0;
 }
@@ -116,10 +116,6 @@ main{
 	width: 71px;
 	margin-top: 60px;
 }
-#selectCal > span{
-	width: 71px;
-	margin-top: 60px;
-}
 #clients{
 	position: absolute;
 	right: 615px;
@@ -170,4 +166,15 @@ footer{
 	margin-top: 59px;
 	margin-right: 64px;
 	width: 250px;
+}
+#selectCal > *{
+	float: right;
+}
+select{
+	width: 200px;
+	border-radius: 5px;
+}
+#selectCal section{
+	margin-top: 60px;
+	margin-right: 54px;
 }
