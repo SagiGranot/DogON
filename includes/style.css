@@ -98,6 +98,13 @@ main{
 	width: 104px;
 	margin-top: 3px;
 }
+#mainNav a{
+	color:#FFFFFF;
+}
+#mainNav a:hover{
+	color: #b9b9b9;
+	font-size: 14px;
+}
 #mainNav span{
 	float: right;
 	font-size: 17px;
@@ -139,6 +146,11 @@ main{
 }
 .darkArea span{
 	font-size: 20px;
+}
+.darkArea > *{
+	margin-top: 16px;
+	margin-right: 5px;
+}
 }
 .icon{
 	margin:7px;
