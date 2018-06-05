@@ -178,3 +178,10 @@ select{
 	margin-top: 60px;
 	margin-right: 54px;
 }
+.calBox{
+	background-color: #FFFFFF;
+	height: 55px;
+}
+.dayOff{
+	color: #c72727;
+}
