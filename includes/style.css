@@ -137,6 +137,9 @@ main{
 	height: 45px;
 	background-color: #a4a4a4;
 }
+.darkArea span{
+	font-size: 20px;
+}
 .icon{
 	margin:7px;
 }
