@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="he">
 <head>
 	<title>DogON Clinic By Sagi & Netta</title>
 	<meta charset="UTF-8">
@@ -10,9 +10,9 @@
 <body>
 	<div class="wrapper">
 		<header>
-			<section id="tools"><p>English<br>מחובר: <u>ד״ר סטפן וייס</u></p></section>
-			<section id="logoBar">
-				<span id="theLogo"></span>
+			<div id="tools"><p>English<br>מחובר: <u>ד״ר סטפן וייס</u></p></div>
+			<div id="logoBar">
+				<a href="index.html" id="theLogo"></a>
 				<span id="theSearch">
 					<label><input name="search" title="search for clients and patients" placeholder="חיפוש"></label>
 				</span>
@@ -24,20 +24,20 @@
 						<li id="logOut">התנתק</li>
 					</ul>
 				</nav>
-			</section>
+			</div>
 			<div class="clear"></div><br>
 			<nav id="mainNav">
 				<ul>
-					<li><a href="#">דף הבית</a></li><span>|</span>
-					<li><a href="#">לקוחות</a></li><span>|</span>
-					<li><a href="#">בעלי-חיים</a></li><span>|</span>
-					<li><a href="#">ביקורים</a></li><span>|</span>
-					<li><a href="#">יומן</a></li><span>|</span>
-					<li><a href="#">חיסונים ותרופות</a></li><span>|</span>
-					<li><a href="#">אבחון התנהגות</a></li><span>|</span>
-					<li><a href="#">לקוחות</a></li><span>|</span>
-					<li><a href="#">תזכורות</a></li><span>|</span>
-					<li><a href="#">כלים<a href="#"></a></li><span>|</span>
+					<li><a href="index.html">דף הבית</a></li><li class="borderNav">|</li>
+					<li><a href="#">לקוחות</a></li><li class="borderNav">|</li>
+					<li><a href="#">בעלי-חיים</a></li><li class="borderNav">|</li>
+					<li><a href="#">ביקורים</a></li><li class="borderNav">|</li>
+					<li><a href="#">יומן</a></li><li class="borderNav">|</li>
+					<li><a href="medicine.html">חיסונים ותרופות</a></li><li class="borderNav">|</li>
+					<li><a href="#">אבחון התנהגות</a></li><li class="borderNav">|</li>
+					<li><a href="#">לקוחות</a></li><li class="borderNav">|</li>
+					<li><a href="#">תזכורות</a></li><li class="borderNav">|</li>
+					<li><a href="#">כלים</a></li><li class="borderNav">|</li>
 					<li><a href="#">הגדרות</a></li>
 				</ul>
 			</nav>
@@ -49,28 +49,27 @@
 			<div id="calendar" class="mainBox">
 				<section class="darkArea">
 					<i class="fa fa-calendar fa-lg icon" aria-hidden="true"></i>
-					<span><b>יומן</b></span>
+					<h2>יומן</h2>
 				</section>
-				<section id="selectCal">
-					<div>
-						:מרפאה<br><br><br>:רופא
-					</div>
-					<section>
-						<select>
-						  <option value="volvo">Volvo</option>
-						  <option value="saab">Saab</option>
-						  <option value="opel">Opel</option>
-						  <option value="audi">Audi</option>
-						</select>
-						<br><br><br>
-						<select>
-						  <option value="volvo">Volvo</option>
-						  <option value="saab">Saab</option>
-						  <option value="opel">Opel</option>
-						  <option value="audi">Audi</option>
-						</select>
-					</section>
-				</section>
+				<div class="floatRight" id="selectorName">
+					:מרפאה<br><br><br>:רופא
+				</div>
+				<div class="floatRight">
+					<select>
+					  <option value="volvo">Volvo</option>
+					  <option value="saab">Saab</option>
+					  <option value="opel">Opel</option>
+					  <option value="audi">Audi</option>
+					</select>
+					<br><br><br>
+					<select>
+					  <option value="volvo">Volvo</option>
+					  <option value="saab">Saab</option>
+					  <option value="opel">Opel</option>
+					  <option value="audi">Audi</option>
+					</select>
+				</div>
+				
 				<div class="clear"></div><br><br>
 				<table>
 				  <thead>
@@ -117,6 +116,7 @@
 				      <td class="calBox"></td>
 				      <td class="calBox"></td>
 				    </tr>
+				    <tr>
 				      <td class="hour" rowspan="1"><span>9:00</span></td>
 				      <td class="calBox"></td>
 				      <td class="calBox"></td>
@@ -192,30 +192,30 @@
 			<div id="clients" class="mainBox">
 				<div class="smallBoxes">
 					<div class="smallBox">
-						<p id="centerText">רשימת לקוחות</p>
+						<p class="centerText">רשימת לקוחות</p>
 					</div>
 					<div class="smallBox addNew">
-						<p id="centerText">+ לקוח חדש</p>
+						<p class="centerText">+ לקוח חדש</p>
 					</div>
 				</div>
 				<section class="darkArea">
 					<i class="fa fa-user fa-lg icon" aria-hidden="true"></i>
-					<span><b>לקוחות</b></span>
+					<h2>לקוחות</h2>
 				</section>
 				<label><input name="search" title="search for clients and patients" placeholder="חיפוש לפי שם לקוח" class="boxSearch"></label>
 			</div>
 			<div id="animals" class="mainBox">
 				<div class="smallBoxes">
 					<div class="smallBox">
-						<p id="centerText">רשימת בעלי חיים</p>
+						<p class="centerText">רשימת בעלי חיים</p>
 					</div>
 					<div class="smallBox addNew">
-						<p id="centerText">+ בעל חיים חדש</p>
+						<p class="centerText">+ בעל חיים חדש</p>
 					</div>
 				</div>
 				<section class="darkArea">
 					<i class="fa fa-paw fa-lg icon" aria-hidden="true"></i>
-					<span><b>בעלי חיים</b></span>
+					<h2>בעלי חיים</h2>
 				</section>
 				<label><input name="search" title="search for clients and patients" placeholder="חיפוש לפי בעל חיים" class="boxSearch"></label>
 			</div>

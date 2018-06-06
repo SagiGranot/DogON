@@ -103,11 +103,9 @@ main{
 }
 #mainNav a:hover{
 	color: #b9b9b9;
-	font-size: 14px;
 }
-#mainNav span{
-	float: right;
-	font-size: 17px;
+.borderNav{
+	width: auto !important;
 }
 #breadcrumbs{
 	width: 1200px;
@@ -163,7 +161,8 @@ main{
 	height: 45px;
 	background-color: #a4a4a4;
 }
-.darkArea span{
+.darkArea h2{
+	display: inline;
 	font-size: 20px;
 }
 .darkArea > *{
@@ -192,7 +191,7 @@ main{
 .addNew{
 	background-color: #ffc95f;
 }
-#centerText{
+.centerText{
 	margin: 6px;
 }
 footer{
@@ -205,16 +204,18 @@ footer{
 	margin-right: 64px;
 	width: 250px;
 }
-#selectCal > *{
+.floatRight{
+	margin-top: 60px;
 	float: right;
+}
+#selectorName{
+	direction: ltr;
+	margin-right: 54px;
+	margin-left: 10px;
 }
 select{
 	width: 200px;
 	border-radius: 5px;
-}
-#selectCal section{
-	margin-top: 60px;
-	margin-right: 54px;
 }
 .calBox{
 	background-color: #FFFFFF;
