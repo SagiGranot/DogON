@@ -45,7 +45,12 @@ input:focus{
 }
 main{
 	position: relative;
+}
+#homepage{
 	height: 880px;
+}
+#vacpage{
+	height: 680px;
 }
 #logoBar{
 	position: relative;
@@ -120,11 +125,10 @@ main{
 	width: 563px;
 	height: 808px;
 }
-#calendar2{
+#vaccine{
 	position: absolute;
 	width: 563px;
-	height: 808px;
-	right: 40px;
+	height: 397px;
 }
 #selectCal > div{
 	direction: ltr;
@@ -142,19 +146,6 @@ main{
 	top: 230px;
 	right: 615px;
 	width: 563px;
-	height: 185px;
-}
-#clients2{
-	position: absolute;
-	right: 655px;
-	width: 400px;
-	height: 185px;
-}
-#animals2{
-	position: absolute;
-	top: 230px;
-	right: 655px;
-	width: 400px;
 	height: 185px;
 }
 .darkArea{
@@ -213,7 +204,7 @@ footer{
 	margin-right: 54px;
 	margin-left: 10px;
 }
-select{
+user-select: {
 	width: 200px;
 	border-radius: 5px;
 }
@@ -223,4 +214,28 @@ select{
 }
 .dayOff{
 	color: #c72727;
+}
+table{
+	width: 100%;
+}
+.td-center
+{
+	text-align: center;
+}
+.td-red
+{
+	background-color: #b70f0a;
+	color: #FFFFFF;
+}
+.td-grey
+{
+	background-color: #606060;
+	color: #FFFFFF;
+}
+.row-height
+{
+	height: 30px;
+}
+.row-select{
+	width:60%;
 }

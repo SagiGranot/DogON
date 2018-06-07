@@ -42,22 +42,85 @@
 				</ul>
 			</nav>
 		</header>
-		<main>
+		<main id="vacpage">
 			<span id="breadcrumbs">
 				<a href="#">דף הבית</a>
 			</span>
-				<div id="calendar2" class="mainBox">
+				<div id="vaccine" class="mainBox">
 					<section class="darkArea">
 						<i class="fa fa-calendar fa-lg icon" aria-hidden="true"></i>
-						<h2>תורים וחיסונים</h2>
+						<h2>חיסונים</h2>
 					</section>
 					<div class="clear"></div><br><br>
+					<table>
+					  <thead>
+					    <tr>
+					      <td></td>
+					      <td>
+					        <span><b>שם החיסון</b></span>
+					      </td>
+					      <td colspan="2">
+					        <span>
+	       						<select class="row-select">
+									 <option value="week" selected="selected">לשבוע הבא</option>
+									 <option value="month">לחודש הבא</option>
+									 <option value="year">לשנה הבאה</option>
+								</select>
+					        </span>
+					      </td>
+					      <td class="td-center">
+					        <span><b>מלאי</b></span>
+					      </td>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr class="row-height">
+					      <td class="hour" rowspan="1"><span><i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp;<i class="fa fa-plus-square" aria-hidden="true"></i>&nbsp;<i class="fa fa-minus-circle" aria-hidden="true"></i></span></td>
+					      <td><span>משושה</span</td>
+					      <td colspan="2"><progress value="44" max="100"></progress></td>
+					      <td class="td-center"><span class="td-red">&nbsp;6&nbsp;</span></td>
+					    </tr>
+					    <tr class="row-height">
+					      <td class="hour" rowspan="1"><span><i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp;<i class="fa fa-plus-square" aria-hidden="true"></i>&nbsp;<i class="fa fa-minus-circle" aria-hidden="true"></i></span></td>
+					      <td><span>כלבת</span</td>
+						  <td colspan="2"><progress value="4" max="100"></progress></td>
+					      <td class="td-center"><span class="td-grey">55</span></td>
+					    </tr>
+					    <tr class="row-height">
+					      <td class="hour" rowspan="1"><span><i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp;<i class="fa fa-plus-square" aria-hidden="true"></i>&nbsp;<i class="fa fa-minus-circle" aria-hidden="true"></i></span></td>
+					      <td><span>תילוע</span</td>
+					      <td colspan="2"><progress value="34" max="100"></progress></td>
+					      <td class="td-center"><span class="td-grey">25</span></td>
+					    </tr>
+					    <tr class="row-height">
+					      <td class="hour" rowspan="1"><span><i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp;<i class="fa fa-plus-square" aria-hidden="true"></i>&nbsp;<i class="fa fa-minus-circle" aria-hidden="true"></i></span></td>
+					      <td><span>שעלת</span</td>
+					      <td colspan="2"><progress value="64" max="100"></progress></td>
+					      <td class="td-center"><span class="td-grey">25</span></td>
+					    </tr>
+					    <tr class="row-height">
+					      <td class="hour" rowspan="1"><span><i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp;<i class="fa fa-plus-square" aria-hidden="true"></i>&nbsp;<i class="fa fa-minus-circle" aria-hidden="true"></i></span></td>
+					      <td><span>תולעת הפארק</span</td>
+					      <td colspan="2"><progress value="50" max="100"></progress></td>
+					      <td class="td-center"><span class="td-grey">55</span></td>
+					    </tr>
+					    <tr class="row-height">
+					      <td class="hour" rowspan="1"><span><i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp;<i class="fa fa-plus-square" aria-hidden="true"></i>&nbsp;<i class="fa fa-minus-circle" aria-hidden="true"></i></span></td>
+					      <td><span>פרוו</span</td>
+					      <td colspan="2"><progress value="70" max="100"></progress></td>
+					      <td class="td-center"><span class="td-grey">30</span></td>
+					    </tr>
+					  </tbody>
+					</table>
 				</div>
 
-				<div id="clients2" class="mainBox">
+				<div id="clients" class="mainBox">
 					<div class="smallBoxes">
 						<div class="smallBox">
 							<p class="centerText">רשימת לקוחות</p>
+						</div>
+						<div class="smallBox addNew">
+							<p class="centerText">+ לקוח חדש</p>
 						</div>
 					</div>
 					<section class="darkArea">
@@ -66,10 +129,13 @@
 					</section>
 					<label><input name="search" title="search for clients and patients" placeholder="חיפוש לפי שם לקוח" class="boxSearch"></label>
 				</div>
-				<div id="animals2" class="mainBox">
+				<div id="animals" class="mainBox">
 					<div class="smallBoxes">
 						<div class="smallBox">
 							<p class="centerText">רשימת בעלי חיים</p>
+						</div>
+						<div class="smallBox addNew">
+							<p class="centerText">+ לקוח חדש</p>
 						</div>
 					</div>
 					<section class="darkArea">
