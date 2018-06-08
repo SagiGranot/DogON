@@ -23,9 +23,6 @@ header{
 	width: 1200px;
 	padding-top: 16px;
 }
-#head-height{
-	height: 174px;
-}
 li{
 	float: right;
 	list-style-type: none;
@@ -89,14 +86,6 @@ main{
 #logoNav li{
 	width: 100px;
 }
-#logoNav2{
-	right: 750px;
-}
-#logoNav2 li{
-	position: relative;
-	top: 3px;
-	width: 100px;
-}
 #logOut{
 	text-align: center;
 	color: #a77a23;
@@ -109,26 +98,6 @@ main{
 	height: 20px;
 	background-color: #3b3b3b;
 	color: #FFFFFF;
-}
-#mainNav2{
-	position: relative;
-	top:-21px;
-	width:1200px;
-	height: 20px;
-	background-color: #3b3b3b;
-	color: #FFFFFF;
-}
-#mainNav2 li{
-	text-align: center;
-	font-size: 13px;
-	width: 104px;
-	margin-top: 1px;
-}
-#mainNav2 a{
-	color:#FFFFFF;
-}
-#mainNav2 a:hover{
-	color: #b9b9b9;
 }
 #mainNav li{
 	text-align: center;
@@ -146,11 +115,6 @@ main{
 	width: auto !important;
 }
 #breadcrumbs{
-	width: 120px;
-}
-#breadcrumbs2{
-	position: relative;
-	top: -23px;
 	width: 120px;
 }
 .mainBox{
@@ -287,17 +251,4 @@ table{
 .form-vac{
 	background: url();
 	background-color: #FFFFFF;
-}
-.vac-input{
-	position: relative;
-	top: 8px;
-	height: 23px;
-	width: 196px;
-	font-family: 'Rubik', sans-serif;
-	font-size: 11px;
-}
-.vaccBox
-{
-	position: relative;
-	top: 20px;
 }
