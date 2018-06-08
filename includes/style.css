@@ -23,11 +23,16 @@ header{
 	width: 1200px;
 	padding-top: 16px;
 }
+#head-height{
+	height: 174px;
+}
 li{
 	float: right;
 	list-style-type: none;
 }
 input{
+	font-family: 'Rubik', sans-serif;
+	width: 180px;
 	border: 1px solid #ccc;
 	-moz-border-radius: 10px;
   	-webkit-border-radius: 10px;
@@ -97,6 +102,26 @@ main{
 	background-color: #3b3b3b;
 	color: #FFFFFF;
 }
+#mainNav2{
+	position: relative;
+	top:-21px;
+	width:1200px;
+	height: 20px;
+	background-color: #3b3b3b;
+	color: #FFFFFF;
+}
+#mainNav2 li{
+	text-align: center;
+	font-size: 13px;
+	width: 104px;
+	margin-top: 1px;
+}
+#mainNav2 a{
+	color:#FFFFFF;
+}
+#mainNav2 a:hover{
+	color: #b9b9b9;
+}
 #mainNav li{
 	text-align: center;
 	font-size: 13px;
@@ -113,7 +138,12 @@ main{
 	width: auto !important;
 }
 #breadcrumbs{
-	width: 1200px;
+	width: 120px;
+}
+#breadcrumbs2{
+	position: relative;
+	top: -23px;
+	width: 120px;
 }
 .mainBox{
 	position: relative;
@@ -238,4 +268,23 @@ table{
 }
 .row-select{
 	width:60%;
+}
+#check{
+	display: block;
+	position: absolute;
+	right: 615px;
+	width: 563px;
+	height: 485px;
+}
+.form-vac{
+	background: url();
+	background-color: #FFFFFF;
+}
+.vac-input{
+	position: relative;
+	top: 8px;
+	height: 23px;
+	width: 196px;
+	font-family: 'Rubik', sans-serif;
+	font-size: 11px;
 }
