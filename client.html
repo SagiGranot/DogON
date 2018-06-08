@@ -94,10 +94,24 @@
 						<i class="fa fa-plus-circle fa-lg icon" aria-hidden="true"></i>
 						<h2>הוספת חיסון חדש</h2>
 					</section>
-					<form action="index.html" method="get">
-						<label>שם חיסון:<input class="form-vac" name="vacName" title="Vaccine name" value="משושה" readonly></label>
-						<br>
-
+					<form action="medicine.html" method="get"><br><br>
+						<table>
+							<tr>
+								<label><td>שם חיסון:</td><td><input class="form-vac" name="vacName" title="Vaccine name" value="משושה" readonly></td></label>
+							</tr>
+							<tr>
+								<label><td>תאריך:</td><td><input class="form-vac" type="date" name="date"></td></label>
+							</tr>
+							<tr>
+								<label><td>שעה:</td><td><input class="form-vac" type="time" name="time"></td></label>
+							</tr>
+							<tr>
+								<label><td>הערות:</td><td><textarea class="form-vac textForm" name="text" rows="5" cols="40"></textarea></td></label>
+							</tr>
+							<tr>
+								<label><td></td><td><input type="submit" id="button" class="form-vac" name="send" value="שלח"></td></label>
+							</tr>
+						</table>
 					</form>
 				</div>
 

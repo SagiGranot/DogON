@@ -252,3 +252,17 @@ table{
 	background: url();
 	background-color: #FFFFFF;
 }
+.textForm{
+	-moz-border-radius: 10px;
+  	-webkit-border-radius: 10px;
+ 	border-radius: 10px;
+ 	border: 1px solid #ccc;
+}
+#button{
+	width: 40px;
+	text-align: center;
+	margin-top: 70px;
+	margin-right: 250px;
+	background-color: #5d5c5c;
+	color: #ffffff;
+}
