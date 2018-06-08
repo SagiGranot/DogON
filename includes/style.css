@@ -89,6 +89,14 @@ main{
 #logoNav li{
 	width: 100px;
 }
+#logoNav2{
+	right: 750px;
+}
+#logoNav2 li{
+	position: relative;
+	top: 3px;
+	width: 100px;
+}
 #logOut{
 	text-align: center;
 	color: #a77a23;
@@ -287,4 +295,9 @@ table{
 	width: 196px;
 	font-family: 'Rubik', sans-serif;
 	font-size: 11px;
+}
+.vaccBox
+{
+	position: relative;
+	top: 20px;
 }
