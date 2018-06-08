@@ -351,18 +351,11 @@ table{
 	#clients{
 		position: relative;
 		right:195px;
-		/*right: 615px;
-		width: 563px;
-		height: 185px;*/
 	}	
 	#animals{
 		position: relative;
 		right:195px;
 		top:0;
-		/*top: 230px;
-		right: 615px;
-		width: 563px;
-		height: 185px;*/
 	}
 	#calendar{
 		right:195px;
@@ -373,5 +366,11 @@ table{
 	}
 	footer{
 		width: 100%;
+	}
+}
+@media (max-width: 768px)
+{
+	#logoBar{
+		width: 968px;
 	}
 }
