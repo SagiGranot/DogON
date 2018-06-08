@@ -102,6 +102,7 @@ main{
 	background-color: #3b3b3b;
 	color: #FFFFFF;
 }
+
 #mainNav li{
 	text-align: center;
 	font-size: 13px;
@@ -269,4 +270,55 @@ table{
 	margin-top: 70px;
 	background-color: #5d5c5c;
 	color: #ffffff;
+}
+
+@media (max-width: 1024px){
+	#mainNav{
+		display: none;
+	}
+	.wrapper{
+		width: 100%;
+	}
+	header{
+		width: 100%;
+	}
+	#logoBar{
+		width: 100%;
+	}
+	#logoNav{
+		right: 515px;
+		width: 402px;
+	}
+	#theSearch{
+		right: 300px;
+	}
+	#breadcrumbs{
+		display: none;
+	}
+	#clients{
+		position: relative;
+		right:195px;
+		/*right: 615px;
+		width: 563px;
+		height: 185px;*/
+	}	
+	#animals{
+		position: relative;
+		right:195px;
+		top:0;
+		/*top: 230px;
+		right: 615px;
+		width: 563px;
+		height: 185px;*/
+	}
+	#calendar{
+		right:195px;
+		top: 390px;
+	}
+	#homepage{
+	height: 1250px;
+	}
+	footer{
+		width: 100%;
+	}
 }
