@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 	<link rel="stylesheet" href="includes/style.css">
-	<script src="includes/js/script_cli.js" async></script>
+	<script src="includes/js/script_cli2.js" async></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -45,9 +45,9 @@
 		</header>
 		<main id="vacpage">
 			<span id="breadcrumbs">
-				<a href="index.html">דף הבית</a>&nbsp;>&nbsp;<a href="medicine.html">חיסונים ותרופות</a>
+				<a href="index.html">דף הבית</a>&nbsp;>&nbsp;<a href="medicine.html">חיסונים ותרופות</a>&nbsp;>&nbsp;<a href="client.html">דף לקוח</a>
 			</span>
-				<div id="vaccine" class="mainBox">
+				<div id="vaccine2" class="mainBox">
 					<section class="darkArea">
 						<i class="fa fa-user-md fa-lg icon" aria-hidden="true"></i>
 						<h2>חיסונים</h2>
@@ -89,13 +89,12 @@
 					  </tbody>
 					</table>
 				</div>
-
 				<div id="add-form" class="mainBox">
 					<section class="darkArea">
 						<i class="fa fa-plus-circle fa-lg icon" aria-hidden="true"></i>
 						<h2>הוספת חיסון חדש</h2>
 					</section>
-					<form action="medicine.html" method="get"><br><br>
+					<form action="client.html" method="get"><br><br>
 						<table>
 							<tr>
 								<label><td>שם חיסון:</td><td><input class="form-vac" name="vacName" title="Vaccine name" value="משושה" readonly></td></label>
@@ -115,7 +114,28 @@
 						</table>
 					</form>
 				</div>
-
+				<div id="sideMenu">
+					<nav id="sideNav">
+					<ul>
+						<li><a href="index.html">דף הבית</a></li>
+						<li><a href="#">לקוחות</a></li>
+						<li><a href="#">בעלי-חיים</a></li>
+						<li><a href="#">ביקורים</a></li>
+						<li><a href="#">יומן</a></li>
+						<li><a href="medicine.html">חיסונים ותרופות</a></li>
+						<li><a href="#">אבחון התנהגות</a></li>
+						<li><a href="#">לקוחות</a></li>
+						<li><a href="#">תזכורות</a></li>
+						<li><a href="#">כלים</a></li>
+						<li><a href="#">הגדרות</a></li>
+					</ul>
+				</nav>
+				</div>
+				<div class="container" id="hamburger2" onclick="myFunction(this)">
+				  <div class="bar1"></div>
+				  <div class="bar2"></div>
+				  <div class="bar3"></div>
+				</div>
 				<div class="clear"></div>
 		</main>
 		<footer><br><b>DogON - Clinic</b><br>&copy;כל הזכויות שמורות</footer>

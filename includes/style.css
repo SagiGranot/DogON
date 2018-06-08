@@ -82,6 +82,11 @@ main{
 	position: absolute;
 	top:-165px;
 }
+#hamburger2{
+	display: none;
+	position: absolute;
+	top:-153px;
+}
 #sideMenu{
 	display: none;
 	position: absolute;
@@ -150,6 +155,11 @@ main{
 	height: 808px;
 }
 #vaccine{
+	position: absolute;
+	width: 563px;
+	height: 397px;
+}
+#vaccine2{
 	position: absolute;
 	width: 563px;
 	height: 397px;
@@ -326,6 +336,9 @@ table{
 	#hamburger{
 		display: block;
 	}
+	#hamburger2{
+		display: block;
+	}
 	#mainNav{
 		display: none;
 	}
@@ -361,8 +374,23 @@ table{
 		right:195px;
 		top: 390px;
 	}
+	#vaccine{
+		right:195px;
+		top: 390px;
+	}
+	#vaccine2{
+		right:195px;
+		top: 0px;
+	}
+	#add-form{
+		right:195px;
+		top: 400px;
+	}
 	#homepage{
 	height: 1250px;
+	}
+	#vacpage{
+		height: 1000px;
 	}
 	footer{
 		width: 100%;
