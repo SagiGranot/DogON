@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 	<link rel="stylesheet" href="includes/style.css">
+	<script src="includes/js/script.js" async></script>
 </head>
 <body>
 	<div class="wrapper">
@@ -18,10 +19,10 @@
 				</span>
 				<nav id="logoNav">
 					<ul>
-						<li>+ ביקור חדש</li>
-						<li>+ לקוח חדש</li>
-						<li>+ תזכורת</li>
-						<li id="logOut">התנתק</li>
+						<li><a href="#">+ ביקור חדש</a></li>
+						<li><a href="#">+ לקוח חדש</a></li>
+						<li><a href="#">+ תזכורת</a></li>
+						<li id="logOut"><a href="#">התנתק</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -43,9 +44,9 @@
 			</nav>
 		</header>
 		<main id="vacpage">
-			<div id="breadcrumbs">
-				<a href="#">דף הבית</a>
-			</div>
+			<span id="breadcrumbs">
+				<a href="index.html">דף הבית</a>&nbsp;>&nbsp;<a href="medicine.html">חיסונים ותרופות</a>
+			</span>
 				<div id="vaccine" class="mainBox">
 					<section class="darkArea">
 						<i class="fa fa-user-md fa-lg icon" aria-hidden="true"></i>
@@ -66,7 +67,7 @@
 					  </thead>
 					  <tbody>
 					    <tr class="row-height">
-					      <td class="hour" rowspan="1"><span><i class="fa fa-list" aria-hidden="true"></i>&nbsp;<i class="fa fa-plus-square" aria-hidden="true"></i>&nbsp;<i class="fa fa-minus-circle" aria-hidden="true"></i></span></td>
+					      <td class="hour" rowspan="1"><span><i class="fa fa-list" aria-hidden="true"></i>&nbsp;<i class="fa fa-plus-square" id="add1" aria-hidden="true"></i>&nbsp;<i class="fa fa-minus-circle" aria-hidden="true"></i></span></td>
 					      <td><span>משושה</span></td>
 					      <td colspan="2"><span>20.6.2018</span></td>
 					    </tr>
@@ -89,7 +90,7 @@
 					</table>
 				</div>
 
-				<div id="check" class="mainBox">
+				<div id="add-form" class="mainBox">
 					<section class="darkArea">
 						<i class="fa fa-plus-circle fa-lg icon" aria-hidden="true"></i>
 						<h2>הוספת חיסון חדש</h2>

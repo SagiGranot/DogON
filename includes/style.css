@@ -93,6 +93,9 @@ main{
 	border-color: #a77a23;
 	border-radius: 5px;
 }
+#logOut a{
+	color: #a77a23;
+}
 #mainNav{
 	width:1200px;
 	height: 20px;
@@ -115,6 +118,8 @@ main{
 	width: auto !important;
 }
 #breadcrumbs{
+	position: relative;
+	top: 5px;
 	width: 120px;
 }
 .mainBox{
@@ -241,8 +246,8 @@ table{
 .row-select{
 	width:60%;
 }
-#check{
-	display: block;
+#add-form{
+	display: none;
 	position: absolute;
 	right: 615px;
 	width: 563px;
@@ -262,7 +267,6 @@ table{
 	width: 40px;
 	text-align: center;
 	margin-top: 70px;
-	margin-right: 250px;
 	background-color: #5d5c5c;
 	color: #ffffff;
 }
