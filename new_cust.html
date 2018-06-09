@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+	<title>DogON Clinic By Sagi & Netta</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+	<link rel="stylesheet" href="includes/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div id="tools"><p>English<br>מחובר: <u>ד״ר סטפן וייס</u></p></div>
+			<div id="logoBar">
+				<a href="index.html" id="theLogo"></a>
+				<span id="theSearch">
+					<label><input name="search" title="search for clients and patients" placeholder="חיפוש"></label>
+				</span>
+				<nav id="logoNav">
+					<ul>
+						<li><a href="#">+ ביקור חדש</a></li>
+						<li><a href="new_cust.html">+ לקוח חדש</a></li>
+						<li><a href="#">+ תזכורת</a></li>
+						<li id="logOut"><a href="#">התנתק</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="clear"></div><br>
+			<nav id="mainNav">
+				<ul>
+					<li><a href="index.html">דף הבית</a></li><li class="borderNav">|</li>
+					<li><a href="#">לקוחות</a></li><li class="borderNav">|</li>
+					<li><a href="#">בעלי-חיים</a></li><li class="borderNav">|</li>
+					<li><a href="#">ביקורים</a></li><li class="borderNav">|</li>
+					<li><a href="#">יומן</a></li><li class="borderNav">|</li>
+					<li><a href="medicine.html">חיסונים ותרופות</a></li><li class="borderNav">|</li>
+					<li><a href="#">אבחון התנהגות</a></li><li class="borderNav">|</li>
+					<li><a href="#">לקוחות</a></li><li class="borderNav">|</li>
+					<li><a href="#">תזכורות</a></li><li class="borderNav">|</li>
+					<li><a href="#">כלים</a></li><li class="borderNav">|</li>
+					<li><a href="#">הגדרות</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main id="vacpage">
+			<span id="breadcrumbs">
+				<a href="index.html">דף הבית</a>&nbsp;>&nbsp;<a href="new_cust.html">הוספת לקוח חדש</a>
+			</span>
+				<div id="new-cust" class="mainBox">
+					<section class="darkArea">
+						<i class="fa fa-calendar fa-lg icon" aria-hidden="true"></i>
+						<h2>הוספת לקוח</h2>
+					</section>
+					<div class="clear"></div><br><br>
+					<form action="#" method="get" autocomplete="on">
+						<table>
+							<tr>
+								<td>שם מלא:</td><td><input class="form-vac" name="fullName" title="Vaccine name"></td>
+							</tr>
+							<tr>
+								<td>כתובת:</td><td><input class="form-vac" name="address"></td>
+							</tr>
+							<tr>
+								<td>שם החיה:</td><td><input class="form-vac" name="petName"></td>
+							</tr>
+							<tr>
+								<td>סוג החיה:</td><td><input class="form-vac" name="type"></td>
+							</tr>
+							<tr>
+								<td>גיל:</td><td><select name="age">
+									<option value="1" selected>1</option>	
+									<option value="2">2</option>	
+									<option value="3">3</option>	
+									<option value="4">4</option>	
+									<option value="5">5</option>	
+									<option value="6">6</option>	
+									<option value="7">7</option>	
+								</select></td>
+							</tr>
+							<tr>
+								<td>מין:</td><td><label><input class="radio" type="radio" name="gender">זכר</label>&nbsp;<label><input class="radio" type="radio" name="gender">נקבה</label></td>
+							</tr>
+							<tr>
+								<td>הערות:</td><td><textarea class="form-vac textForm" name="text" rows="5" cols="40"></textarea></td>
+							</tr>
+							<tr>
+								<td></td><td><input type="submit" id="button" class="form-vac" name="send" value="שלח"></td>
+							</tr>
+						</table>
+						</form>
+				</div>
+				<div id="sideMenu">
+					<nav id="sideNav">
+					<ul>
+						<li><a href="index.html">דף הבית</a></li>
+						<li><a href="#">לקוחות</a></li>
+						<li><a href="#">בעלי-חיים</a></li>
+						<li><a href="#">ביקורים</a></li>
+						<li><a href="#">יומן</a></li>
+						<li><a href="medicine.html"><b>חיסונים ותרופות</b></a></li>
+						<li><a href="#">אבחון התנהגות</a></li>
+						<li><a href="#">לקוחות</a></li>
+						<li><a href="#">תזכורות</a></li>
+						<li><a href="#">כלים</a></li>
+						<li><a href="#">הגדרות</a></li>
+					</ul>
+					</nav>
+				</div>
+			<div class="container" id="hamburger" onclick="myFunction(this)">
+			  <div class="bar1"></div>
+			  <div class="bar2"></div>
+			  <div class="bar3"></div>
+			</div>
+				<div class="clear"></div>
+		</main>
+		<footer><br><b>DogON - Clinic</b><br>&copy;כל הזכויות שמורות</footer>
+	</div>
+</body>
+</html>

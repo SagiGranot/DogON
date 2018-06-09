@@ -164,6 +164,11 @@ main{
 	width: 563px;
 	height: 397px;
 }
+#new-cust{
+	position: absolute;
+	width: 563px;
+	height: 597px;
+}
 #selectCal > div{
 	direction: ltr;
 	width: 71px;
@@ -284,6 +289,9 @@ table{
 	background: url();
 	background-color: #FFFFFF;
 }
+.radio{
+	width: auto;
+}
 .textForm{
 	-moz-border-radius: 10px;
   	-webkit-border-radius: 10px;
@@ -297,12 +305,6 @@ table{
 	background-color: #5d5c5c;
 	color: #ffffff;
 }
-
-
-
-
-
-
 .container {
     display: inline-block;
     cursor: pointer;
@@ -327,11 +329,6 @@ table{
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
 }
-
-
-
-
-
 @media (max-width: 1024px){
 	#hamburger{
 		display: block;
