@@ -32,6 +32,37 @@ a{
 	text-decoration: none;
 	color:#000000;
 }
+.container {
+	margin-top:0px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
 #tools{
 	width: 100%;
 	height: 50px;
@@ -40,11 +71,12 @@ a{
 	margin: 8px;
 }
 #searchImage{
-	width: 65px;
-	height: 60px;
+	margin-right: 5px;
+	width: 50px;
+	height: 45px;
 	display: block;
 	background: url(../images/searchIcon.png) no-repeat;
-	background-size: 65px 60px;
+	background-size: 50px 45px;
 	float: left;
 }
 #selectAnimal{
@@ -134,7 +166,7 @@ main{
   display: none; /*hide original SELECT element:*/
 }
 .select-selected {
-  background-color: #f8f8f8;
+  background-color: #ffffff;
 }
 /*style the arrow inside the select element:*/
 .select-selected:after {
@@ -155,7 +187,7 @@ main{
 /*style the items (options), including the selected item:*/
 .select-items div,.select-selected {
   color: #6f6f6f;
-  padding: 8px 16px;
+  /*padding: 8px 16px;*/
   border: 1px solid transparent;
   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
   cursor: pointer;
@@ -164,7 +196,7 @@ main{
 /*style items (options):*/
 .select-items {
   position: absolute;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
   top: 100%;
   left: 0;
   right: 0;

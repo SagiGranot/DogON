@@ -22,8 +22,9 @@
 		obj4.style.display = "block";
 	}
 })();
-
-
+function myFunction(x) {
+    x.classList.toggle("change");
+}
 
 var x, i, j, selElmnt, a, b, c;
 /*look for any elements with the class "custom-select":*/
