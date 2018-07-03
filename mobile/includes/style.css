@@ -33,16 +33,19 @@ a{
 	color:#000000;
 }
 .container {
-	margin-top:0px;
+	top:0;
     display: inline-block;
     cursor: pointer;
 }
+#hamburger{
+	
+}
 
 .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
+    width: 70px;
+    height: 7px;
     background-color: #333;
-    margin: 6px 0;
+    margin: 11px 0;
     transition: 0.4s;
 }
 
@@ -89,9 +92,12 @@ a{
 	border: 0.4px solid #f3f3f3;
 }
 #icons{
-	position: rtl;
+	position: absolute;
+	top:0;
+	right:0;
 	margin-right: 7px;
 	float: right;
+
 }
 .icon{
 	margin-right: 15px;
@@ -208,4 +214,21 @@ main{
 }
 .select-items div:hover, .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+#sideMenu{
+	display: none;
+	position: absolute;
+	direction: rtl;
+	top: 0;
+	right: 0;
+	width: 85%;
+	height: 100%;
+	background-color: #eaeaea;
+}
+#sideNav li{
+	font-size: 50px;
+	float: none;
+	margin: 100px;
 }

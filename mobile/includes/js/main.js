@@ -22,8 +22,26 @@
 		obj4.style.display = "block";
 	}
 })();
+
+
+var flag = 0;
 function myFunction(x) {
+  if (flag == 0){
+      x.classList.toggle("change");
+      document.getElementById("sideMenu").style.display = "block";
+      document.getElementById("hamburger").style.marginRight = "750px";
+      document.getElementById("icon1").style.display = "none";
+      document.getElementById("icon2").style.display = "none";
+      flag = 1;
+  }
+  else {
     x.classList.toggle("change");
+      document.getElementById("sideMenu").style.display = "none";
+      document.getElementById("hamburger").style.marginRight = "0";
+      document.getElementById("icon1").style.display = "inline";
+      document.getElementById("icon2").style.display = "inline";
+      flag = 0;
+  }
 }
 
 var x, i, j, selElmnt, a, b, c;
