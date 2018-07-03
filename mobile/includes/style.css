@@ -1,0 +1,121 @@
+* {margin:0; padding:0;}
+header, main, footer,section,nav{
+	display:block;
+
+}
+body{
+	font-family: 'Rubik', sans-serif;
+	background-color: #ffffff;
+	width: 100%;
+	text-align: center;
+}
+.wrapper{
+	width: 350px;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	height: 309px;
+	background-color: #ffffff;
+}
+.iconAndText > h1{
+	font-size: 70px;
+}
+#logo{
+	width: 350px;
+	height: 175px;
+	background: url(../images/DogON-logo.png) no-repeat;
+	background-size: 350px 175px;
+	display: block;
+}
+a{
+	text-decoration: none;
+	color:#000000;
+}
+#tools{
+	width: 100%;
+	height: 50px;
+}
+#searchAndSelect{ 
+	margin: 8px;
+}
+#searchImage{
+	width: 49px;
+	height: 49px;
+	display: block;
+	background: url(../images/searchIcon.png) no-repeat;
+	background-size: 49px 49px;
+	float: left;
+}
+#selectAnimal{
+	width:150px;
+	height: 50px;
+	margin-left: 6px;
+	float: left;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #f3f3f3;
+	border: 0.4px solid #f3f3f3;
+}
+#icons{
+	position: rtl;
+	margin-right: 7px;
+	float: right;
+}
+.icon{
+	margin-right: 15px;
+}
+main{
+	height: 587px;
+}
+.box{
+	height: 358px;
+}
+#medicalFile{
+	background-color: #ebebeb;
+}
+#clickOnMedical{
+	display: none;
+	height: 516px;
+	background-color: #ebebeb;
+	padding-top: 100px;
+}
+.iconAndText{
+	display: inline-block;
+	margin: 70px;
+	font-size: 40px;
+}
+.iconAndText > i{
+	font-size: 110px;
+}
+#education{
+	background-color: #f7f6f6;
+}
+#vaccine{
+	background-color: #ebebeb;
+}
+#clickOnVaccine{
+	display: none;
+	height: 516px;
+	background-color: #ebebeb;
+	padding-top: 100px;
+}
+#emergency{
+	background-color: #f7f6f6;
+	color: #d70000;
+}
+.center{
+	text-align: center;
+	padding-top: 100px;
+}
+.headline{
+	font-size: 80px;
+}
+.paragraph{
+	font-size: 40px;
+}
+.higher{
+	height: 650px;
+}
+#displayNone{
+	display: none;
+}
