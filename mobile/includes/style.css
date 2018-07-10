@@ -24,7 +24,11 @@ header{
 .iconAndText > h1{
 	font-size: 70px;
 }
-#logo{
+.iconAndText > h2{
+	font-size: 50px;
+	font-weight: normal;
+}
+.logo{
 	width: 350px;
 	height: 175px;
 	background: url(../images/DogON-logo.png) no-repeat;
@@ -274,10 +278,10 @@ a{
 .BehaviorHeadline{
 	font-size: 50px;
 }
-#back-icon{
-	font-size: 15px;
+#backIcone{
+	font-size: 40px;
 	position: absolute;
-	right: 10px;
+	right: 50px;
 }
 .massage{
 	font-size: 30px;
@@ -288,7 +292,7 @@ a{
 .unread{
 	font-weight: bold;
 }
-#mainBehavior > section{
+#mainBehavior > div{
 	margin-right: 5%;
 	direction: rtl;
 }
@@ -324,6 +328,7 @@ a{
     right: 1%; 
     box-shadow: 7px 7px;
     display: none;
+
 }
 #openMassage > p{
 	font-size: 40px;
@@ -334,9 +339,6 @@ a{
 #openMassage > div{
 	padding-top: 40px;
 	font-size: 40px;
-}
-#behaviorLink{
-	text-decoration-line: underline;
 }
 
 /* ------- */
@@ -433,28 +435,6 @@ h4 > a{
 .mid-icon{
 	margin:0 auto;
 }
-#add_vac{
-	direction: rtl;
-	margin-top: 50px;
-}
-#add_vac label{
-	font-size: 80px;
-}
-#add_vac select{
-	font-size: 60px;
-	height: 80px;
-	width: 400px;
-}
-#add_vac input{
-	font-family: 'Rubik', sans-serif;
-	font-size: 50px;
-    border: none;
-    color: #000000;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-}
 /* The switch - the box around the slider */
 .switch {
   position: relative;
@@ -512,4 +492,7 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+form{
+	direction: rtl;
 }
