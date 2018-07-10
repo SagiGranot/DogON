@@ -431,37 +431,15 @@ h4 > a{
 .mid-icon{
 	margin:0 auto;
 }
-form{
+#add_vac{
 	direction: rtl;
-	margin-top: 100px;
+	margin-top: 50px;
 }
-form > label{
-	font-size: 50px;
+#add_vac label{
+	font-size: 80px;
 }
-option{
-	font-size: 50px;
-}
-.form-select
-{
-	height: 150px;
-	width: 150px;
-	font-size: 40px;
-}
-
-.form-select {
-  position: relative;
-  font-family: Arial;
-}
-.form-select select {
-  display: none;
-}
-.form-select:after {
-  position: absolute;
-  content: "";
-  top: 0px;
-  right: 0px;
-  width: 0;
-  height: 0px;
-  border: 16px solid transparent;
-  border-color: #000 transparent transparent transparent;
+#add_vac select{
+	font-size: 60px;
+	height: 80px;
+	width: 400px;
 }

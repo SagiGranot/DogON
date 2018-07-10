@@ -1,0 +1,357 @@
+* {margin:0; padding:0;}
+header, main, footer,section,nav{
+	display:block;
+
+}
+body{
+	font-family: 'Rubik', sans-serif;
+	background-color: #ffffff;
+	width: 100%;
+	text-align: center;
+}
+.wrapper{
+	width: 350px;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	height: 309px;
+	background-color: #ffffff;
+}
+.iconAndText > h1{
+	font-size: 70px;
+}
+#logo{
+	width: 350px;
+	height: 175px;
+	background: url(../images/DogON-logo.png) no-repeat;
+	background-size: 350px 175px;
+	display: block;
+}
+a{
+	text-decoration: none;
+	color:#000000;
+}
+.container {
+	top:0;
+    display: inline-block;
+    cursor: pointer;
+}
+#hamburger{
+	
+}
+
+.bar1, .bar2, .bar3 {
+    width: 70px;
+    height: 7px;
+    background-color: #333;
+    margin: 11px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+#tools{
+	width: 100%;
+	height: 50px;
+}
+#searchAndSelect{ 
+	margin: 8px;
+}
+#searchImage{
+	margin-right: 5px;
+	width: 50px;
+	height: 45px;
+	display: block;
+	background: url(../images/searchIcon.png) no-repeat;
+	background-size: 50px 45px;
+	float: left;
+}
+#selectAnimal{
+	width:150px;
+	height: 50px;
+	margin-left: 6px;
+	float: left;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #f3f3f3;
+	border: 0.4px solid #f3f3f3;
+}
+#icons{
+	position: absolute;
+	top:0;
+	right:0;
+	margin-right: 7px;
+	float: right;
+
+}
+.icon{
+	margin-right: 15px;
+}
+main{
+	height: 587px;
+}
+.box{
+	height: 358px;
+}
+#medicalFile{
+	background-color: #ebebeb;
+}
+#clickOnMedical{
+	display: none;
+	height: 516px;
+	background-color: #ebebeb;
+	padding-top: 100px;
+}
+.iconAndText{
+	display: inline-block;
+	margin: 70px;
+	font-size: 40px;
+}
+.iconAndText > i{
+	font-size: 110px;
+}
+#education{
+	background-color: #f7f6f6;
+}
+#vaccine{
+	background-color: #ebebeb;
+}
+#clickOnVaccine{
+	display: none;
+	height: 516px;
+	background-color: #ebebeb;
+	padding-top: 100px;
+}
+#emergency{
+	background-color: #f7f6f6;
+	color: #d70000;
+}
+.center{
+	text-align: center;
+	padding-top: 100px;
+}
+.headline{
+	font-size: 80px;
+}
+.paragraph{
+	font-size: 40px;
+}
+.higher{
+	height: 650px;
+}
+#displayNone{
+	display: none;
+}
+.custom-select{
+	float:left;
+}
+
+
+
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+.select-selected {
+  background-color: #ffffff;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 30px;
+  right: 10px;
+  width: 0;
+  height: 0px;
+  border: 16px solid transparent;
+  border-color: #000 transparent transparent transparent;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #000 transparent;
+  top: 7px;
+}
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #6f6f6f;
+  /*padding: 8px 16px;*/
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  font-size: 50px;
+}
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #ffffff;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+#sideMenu{
+	display: none;
+	position: absolute;
+	direction: rtl;
+	top: 0;
+	right: 0;
+	width: 85%;
+	height: 100%;
+	background-color: #eaeaea;
+}
+#sideNav li{
+	font-size: 50px;
+	float: none;
+	margin: 100px;
+}
+
+#bodyBehavior{
+	background-color: #f7f6f6;
+}
+
+#headerBehavior{
+	width: 100%;
+	height: 280px;
+	margin-top: 26px;
+	font-size: 40px;
+	background-color: #f7f6f6;
+}
+#behaviorWrapper{
+	width: 630px;	
+	margin: 0 auto;
+}
+#menu{
+	padding-top: 50px;
+}
+.boxed {
+    border-radius: 10px;
+    padding: 5px; 
+    width: 300px;
+}
+#box1{
+	 border: 2px solid #ffffff;
+	 background-color: #fffffF;
+	 float: right;
+
+}
+#box2{
+	border: 2px solid #e6e6e6;
+	 background-color: #e6e6e6;
+	 float: right;
+}
+#mainBehavior{
+	text-align: right;
+	margin-right: 12%;
+	position: relative;
+}
+.BehaviorHeadline{
+	font-size: 50px;
+}
+#backIcone{
+	font-size: 40px;
+	position: absolute;
+	right: 50px;
+}
+.massage{
+	font-size: 30px;
+	direction: rtl;
+	margin-right: 3%;
+	font-size: 40px;
+}
+.unread{
+	font-weight: bold;
+}
+#mainBehavior > section{
+	margin-right: 5%;
+	direction: rtl;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+#selectDot{
+	background-color: #202020;
+}
+#movie{
+	margin-top: 70px;
+}
+#films{
+	margin-top: 40px;
+}
+.oneFilm{
+	margin-left: 60px;
+}
+#video{
+	margin-top: 70px;
+	padding-right: 15%;
+}
+#openMassage{
+    border-radius: 5px;
+    width: 850px;
+    height: 600px;
+    position: absolute;
+    background-color: #f2f1f1;
+    right: 1%; 
+    box-shadow: 7px 7px;
+    display: none;
+
+}
+#openMassage > p{
+	font-size: 40px;
+	direction: rtl;
+	margin-top: 5px;
+	margin-right: 6px;
+}
+#openMassage > div{
+	padding-top: 40px;
+	font-size: 40px;
+}
+div a{
+	text-decoration-line: underline;
+}
+
+#bodyAppoint{
+	background-color: #ebebeb;
+}
+#headerAppoint{
+	margin-top: 20px;
+	font-size: 38px;
+	background-color: #ebebeb;
+}
+select{
+	 direction: rtl;
+	 text-align:left;
+	 font-size: 45px;
+	 width: 8em;
+}
