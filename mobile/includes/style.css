@@ -274,10 +274,10 @@ a{
 .BehaviorHeadline{
 	font-size: 50px;
 }
-#backIcone{
-	font-size: 40px;
+#back-icon{
+	font-size: 15px;
 	position: absolute;
-	right: 50px;
+	right: 10px;
 }
 .massage{
 	font-size: 30px;
@@ -324,7 +324,6 @@ a{
     right: 1%; 
     box-shadow: 7px 7px;
     display: none;
-
 }
 #openMassage > p{
 	font-size: 40px;
@@ -335,6 +334,9 @@ a{
 #openMassage > div{
 	padding-top: 40px;
 	font-size: 40px;
+}
+#behaviorLink{
+	text-decoration-line: underline;
 }
 
 /* ------- */
