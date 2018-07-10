@@ -18,6 +18,9 @@ header{
 	height: 309px;
 	background-color: #ffffff;
 }
+.vaccines{
+	background-color: #ebebeb;
+}
 .iconAndText > h1{
 	font-size: 70px;
 }
@@ -102,9 +105,6 @@ a{
 .icon{
 	margin-right: 15px;
 }
-main{
-	height: 587px;
-}
 .box{
 	height: 358px;
 }
@@ -160,9 +160,6 @@ main{
 .custom-select{
 	float:left;
 }
-
-
-
 
 .custom-select {
   position: relative;
@@ -231,4 +228,240 @@ main{
 	font-size: 50px;
 	float: none;
 	margin: 100px;
+}
+
+
+/* -------- */
+#bodyBehavior{
+	background-color: #f7f6f6;
+}
+
+#headerBehavior{
+	width: 100%;
+	height: 280px;
+	margin-top: 26px;
+	font-size: 40px;
+	background-color: #f7f6f6;
+}
+#behaviorWrapper{
+	width: 630px;	
+	margin: 0 auto;
+}
+#menu{
+	padding-top: 50px;
+}
+.boxed {
+    border-radius: 10px;
+    padding: 5px; 
+    width: 300px;
+}
+#box1{
+	 border: 2px solid #ffffff;
+	 background-color: #fffffF;
+	 float: right;
+
+}
+#box2{
+	border: 2px solid #e6e6e6;
+	 background-color: #e6e6e6;
+	 float: right;
+}
+#mainBehavior{
+	text-align: right;
+	margin-right: 12%;
+	position: relative;
+}
+.BehaviorHeadline{
+	font-size: 50px;
+}
+#backIcone{
+	font-size: 40px;
+	position: absolute;
+	right: 50px;
+}
+.massage{
+	font-size: 30px;
+	direction: rtl;
+	margin-right: 3%;
+	font-size: 40px;
+}
+.unread{
+	font-weight: bold;
+}
+#mainBehavior > section{
+	margin-right: 5%;
+	direction: rtl;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+#selectDot{
+	background-color: #202020;
+}
+#movie{
+	margin-top: 70px;
+}
+#films{
+	margin-top: 40px;
+}
+.oneFilm{
+	margin-left: 60px;
+}
+#video{
+	margin-top: 70px;
+	padding-right: 15%;
+}
+#openMassage{
+    border-radius: 5px;
+    width: 850px;
+    height: 600px;
+    position: absolute;
+    background-color: #f2f1f1;
+    right: 1%; 
+    box-shadow: 7px 7px;
+    display: none;
+
+}
+#openMassage > p{
+	font-size: 40px;
+	direction: rtl;
+	margin-top: 5px;
+	margin-right: 6px;
+}
+#openMassage > div{
+	padding-top: 40px;
+	font-size: 40px;
+}
+
+/* ------- */
+
+#mainVac{
+	direction: rtl;
+	text-align: right;
+}
+#title{
+	font-weight: normal;
+}
+#title2{
+	font-weight: normal;
+	font-size: 60px;
+}
+.fa-5x{
+    font-size:10.2em;
+}
+.fa-3x{
+	font-size:8.5em;
+}
+.iconWrap
+{
+	width:800px;
+	margin: 0 auto;
+}
+.vaccIcon{
+	margin-right: 100px;
+	position: relative;
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	border-radius:400px;
+}
+.Top{
+	margin-right: 0;
+}
+
+.vaccIcon > i{
+	margin-top: 20px;
+	margin-right: 50px;
+}
+.Top > i{
+	margin:0 auto;
+	margin-top:10px;
+}
+.aIcon{
+	width:400px;
+	margin-bottom: 50px;
+	float:right;
+}
+.aIcon > h2{
+	text-align: center;
+	font-size: 50px;
+	font-weight: normal;
+}
+
+.topIcon{
+	width: 200px;
+	margin: 0 auto;
+	font-size: 40px;
+}
+.topIcon > i{
+	font-size: 10px;
+}
+#iconLeft{
+	margin-right: 5px;
+	float: left;
+}
+.vacInfo{
+	direction: rtl;
+}
+.vacInfo > h3 {
+	font-size: 30px;
+}
+.vacInfo > h4 {
+	font-size: 20px;
+}
+.vacInfo > div {
+	font-size: 40px;
+
+}
+h4 > a{
+	text-decoration-line: underline;
+}
+.add{
+	padding-left: 25px;
+	padding-top: 8px;
+}
+.wide{
+/*	width: 600px;*/
+}
+.mid-icon{
+	margin:0 auto;
+}
+form{
+	direction: rtl;
+	margin-top: 100px;
+}
+form > label{
+	font-size: 50px;
+}
+option{
+	font-size: 50px;
+}
+.form-select
+{
+	height: 150px;
+	width: 150px;
+	font-size: 40px;
+}
+
+.form-select {
+  position: relative;
+  font-family: Arial;
+}
+.form-select select {
+  display: none;
+}
+.form-select:after {
+  position: absolute;
+  content: "";
+  top: 0px;
+  right: 0px;
+  width: 0;
+  height: 0px;
+  border: 16px solid transparent;
+  border-color: #000 transparent transparent transparent;
 }
