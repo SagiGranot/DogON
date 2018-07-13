@@ -495,4 +495,15 @@ input:checked + .slider:before {
 }
 form{
 	direction: rtl;
+	font-size: 45px;
+}
+input{
+	font-size: 44px;
+	height: 90px;
+}
+button{
+	height: 90px;
+}
+button > h2 {
+	font-size: 50px;
 }

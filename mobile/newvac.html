@@ -22,19 +22,17 @@
 		</header>
 		<main>
 			<br><br><br>
-			<form>
-			<div class="input-group mb-3">
-			  <div class="input-group-prepend">
-			    <label class="input-group-text" for="inputGroupSelect01">Options</label>
-			  </div>
-			  <select class="custom-select" id="inputGroupSelect01">
-			    <option selected>Choose...</option>
-			    <option value="1">One</option>
-			    <option value="2">Two</option>
-			    <option value="3">Three</option>
-			  </select>
-			</div>
-			</form>
+			<form action="/action_page.php">
+  <div class="form-group">
+    <label for="name">שם חיסון:</label>
+    <input class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="date">תאריך:</label>
+    <input type="date" class="form-control" id="pwd">
+    <br><br><br>
+  <button type="submit" class="btn btn-default"><h2>שלח</h2></button>
+</form>
 			
 		</main>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
