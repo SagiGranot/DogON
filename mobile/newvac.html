@@ -6,6 +6,8 @@
 		<link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.0.0/css/bootstrap.min.css" integrity="sha384-P4uhUIGk/q1gaD/NdgkBIl3a6QywJjlsFJFk7SPRdruoGddvRVSwv5qFnvZ73cpz" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="includes/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="includes/js/form.js" async></script>
 		
 	</head>
 	<body class="vaccines">
@@ -22,17 +24,17 @@
 		</header>
 		<main>
 			<br><br><br>
-			<form action="/action_page.php">
-  <div class="form-group">
-    <label for="name">שם חיסון:</label>
-    <input class="form-control" id="email">
-  </div>
-  <div class="form-group">
-    <label for="date">תאריך:</label>
-    <input type="date" class="form-control" id="pwd">
-    <br><br><br>
-  <button type="submit" class="btn btn-default"><h2>שלח</h2></button>
-</form>
+			<form action="" method="post" id="posts">
+			  <div class="form-group">
+			    <label for="name">שם חיסון:</label>
+			    <input class="form-control" id="title">
+			  </div>
+			  <div class="form-group">
+			    <label for="date">תאריך:</label>
+			    <input type="date" class="form-control" id="date">
+			    <br><br><br>
+			  <button type="submit" class="btn btn-default"><h2>שלח</h2></button>
+			</form>
 			
 		</main>
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
