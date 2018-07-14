@@ -1,401 +1,509 @@
 * {margin:0; padding:0;}
 header, main, footer,section,nav{
 	display:block;
+
+}
+body{
+	font-family: 'Rubik', sans-serif;
+	background-color: #ffffff;
+	width: 100%;
+	text-align: center;
 }
 .wrapper{
-	width: 1200px;
-	margin:0 auto;
+	width: 350px;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	height: 309px;
+	background-color: #ffffff;
+}
+.vaccines{
+	background-color: #ebebeb;
+}
+.iconAndText > h1{
+	font-size: 70px;
+}
+.iconAndText > h2{
+	font-size: 50px;
+	font-weight: normal;
+}
+.logo{
+	width: 350px;
+	height: 175px;
+	background: url(../images/DogON-logo.png) no-repeat;
+	background-size: 350px 175px;
+	display: block;
 }
 a{
 	text-decoration: none;
 	color:#000000;
 }
-
-.clear{
-	clear: both;
-}
-body{
-	background-color: #fbfbfb;
-	direction: rtl;
-	font-family: 'Rubik', sans-serif;
-}
-header{
-	width: 1200px;
-	padding-top: 16px;
-}
-li{
-	float: right;
-	list-style-type: none;
-}
-input{
-	font-family: 'Rubik', sans-serif;
-	width: 180px;
-	border: 1px solid #ccc;
-	-moz-border-radius: 10px;
-  	-webkit-border-radius: 10px;
- 	border-radius: 10px;
-    padding: 4px 7px;
-    background: url(../images/searchIcon.png) no-repeat;
-    background-size: 15px 13px;
-    background-position: 2% 50%;
-    background-color: #ffffff;
-    outline: 0;
-}
-input:focus{
-	background: url();
-	background-color: #ffffff;
-}
-main{
-	position: relative;
-}
-#homepage{
-	height: 880px;
-}
-#vacpage{
-	height: 680px;
-}
-#logoBar{
-	position: relative;
-	width: 1200px;
-	height: 52px;
-	margin-top: 67px;
-	background-color: #ebebeb;
-}
-#theLogo{
-	top: -42px;
-	margin-right: 45px;
-	width: 220px;
-	height: 110px;
-	background: url(../images/ClinicON-logo.png) no-repeat;
-	background-size: 220px 110px;
-}
-#logoBar > * {
-	position: absolute;
-	bottom: 10px;
-}
-#tools{
-	direction: ltr;
-	float:left;
-}
-#hamburger{
-	display: none;
-	position: absolute;
-	top:-165px;
-}
-#hamburger2{
-	display: none;
-	position: absolute;
-	top:-153px;
-}
-#sideMenu{
-	display: none;
-	position: absolute;
-	top:-170px;
-	width: 250px;
-	height: 1420px;
-	background-color: #eaeaea;
-}
-#sideNav li{
-	float: none;
-	margin: 40px;
-}
-#theSearch{
-	right: 400px;
-}
-#logoNav{
-	right: 750px;
-}
-#logoNav li{
-	width: 100px;
-}
-#logOut{
-	text-align: center;
-	color: #a77a23;
-	border:1px solid;
-	border-color: #a77a23;
-	border-radius: 5px;
-}
-#logOut a{
-	color: #a77a23;
-}
-#mainNav{
-	width:1200px;
-	height: 20px;
-	background-color: #3b3b3b;
-	color: #FFFFFF;
-}
-#mainNav li{
-	text-align: center;
-	font-size: 13px;
-	width: 104px;
-	margin-top: 3px;
-}
-#mainNav a{
-	color:#FFFFFF;
-}
-#mainNav a:hover{
-	color: #b9b9b9;
-}
-.borderNav{
-	width: auto !important;
-}
-#breadcrumbs{
-	position: relative;
-	top: 5px;
-	width: 120px;
-}
-.mainBox{
-	position: relative;
-	background-color: #e4e4e4;
-	margin: 16px;
-}
-#calendar{
-	position: absolute;
-	width: 563px;
-	height: 808px;
-}
-#vaccine{
-	position: absolute;
-	width: 563px;
-	height: 397px;
-}
-#vaccine2{
-	position: absolute;
-	width: 563px;
-	height: 397px;
-}
-#new-cust{
-	position: absolute;
-	width: 563px;
-	height: 597px;
-}
-#selectCal > div{
-	direction: ltr;
-	width: 71px;
-	margin-top: 60px;
-}
-#clients{
-	position: absolute;
-	right: 615px;
-	width: 563px;
-	height: 185px;
-}
-#animals{
-	position: absolute;
-	top: 230px;
-	right: 615px;
-	width: 563px;
-	height: 185px;
-}
-.darkArea{
-	height: 45px;
-	background-color: #a4a4a4;
-}
-.darkArea h2{
-	display: inline;
-	font-size: 20px;
-}
-.darkArea > *{
-	margin-top: 16px;
-	margin-right: 5px;
-}
-}
-.icon{
-	margin:7px;
-}
-.smallBoxes{
-	position: absolute;
-	right: 220px;
-	top: 13px;
-	width: 350px;
-	height: 55px;
-}
-.smallBox{
-	margin: 10px;
-	float: right;
-	width: 143px;
-	height: 34px;
-	background-color: #c0c0c0;
-	text-align: center;
-}
-.addNew{
-	background-color: #ffc95f;
-}
-.centerText{
-	margin: 6px;
-}
-footer{
-	width: 1200px;
-	background-color: #a4a4a4;
-	text-align: center;
-}
-.boxSearch{
-	margin-top: 59px;
-	margin-right: 64px;
-	width: 250px;
-}
-.floatRight{
-	margin-top: 60px;
-	float: right;
-}
-#selectorName{
-	direction: ltr;
-	margin-right: 54px;
-	margin-left: 10px;
-}
-user-select: {
-	width: 200px;
-	border-radius: 5px;
-}
-.calBox{
-	background-color: #FFFFFF;
-	height: 55px;
-}
-.dayOff{
-	color: #c72727;
-}
-table{
-	width: 100%;
-}
-.td-center
-{
-	text-align: center;
-}
-.td-red
-{
-	background-color: #b70f0a;
-	color: #FFFFFF;
-}
-.td-grey
-{
-	background-color: #606060;
-	color: #FFFFFF;
-}
-.row-height
-{
-	height: 30px;
-}
-.row-select{
-	width:60%;
-}
-#add-form{
-	display: none;
-	position: absolute;
-	right: 615px;
-	width: 563px;
-	height: 485px;
-}
-.form-vac{
-	background: url();
-	background-color: #FFFFFF;
-}
-.radio{
-	width: auto;
-}
-.textForm{
-	-moz-border-radius: 10px;
-  	-webkit-border-radius: 10px;
- 	border-radius: 10px;
- 	border: 1px solid #ccc;
-}
-#button{
-	width: 40px;
-	text-align: center;
-	margin-top: 70px;
-	background-color: #5d5c5c;
-	color: #ffffff;
-}
 .container {
+	top:0;
     display: inline-block;
     cursor: pointer;
 }
+#hamburger{
+	
+}
 
 .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
+    width: 70px;
+    height: 7px;
     background-color: #333;
-    margin: 6px 0;
+    margin: 11px 0;
     transition: 0.4s;
 }
 
+/* Rotate first bar */
 .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
 }
 
-.change .bar2 {opacity: 0;}
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
 
+/* Rotate last bar */
 .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
 }
-@media (max-width: 1024px){
-	#hamburger{
-		display: block;
-	}
-	#hamburger2{
-		display: block;
-	}
-	#mainNav{
-		display: none;
-	}
-	.wrapper{
-		width: 100%;
-	}
-	header{
-		width: 100%;
-	}
-	#logoBar{
-		width: 100%;
-	}
-	#logoNav{
-		right: 515px;
-		width: 402px;
-	}
-	#theSearch{
-		right: 300px;
-	}
-	#breadcrumbs{
-		display: none;
-	}
-	#clients{
-		position: relative;
-		right:195px;
-	}	
-	#animals{
-		position: relative;
-		right:195px;
-		top:0;
-	}
-	#calendar{
-		right:195px;
-		top: 390px;
-	}
-	#vaccine{
-		right:195px;
-		top: 390px;
-	}
-	#vaccine2{
-		right:195px;
-		top: 0px;
-	}
-	#add-form{
-		right:195px;
-		top: 0px;
-	}
-	#homepage{
-	height: 1250px;
-	}
-	#vacpage{
-		height: 1000px;
-	}
-	footer{
-		width: 100%;
-	}
+
+#tools{
+	width: 100%;
+	height: 50px;
 }
-@media (max-width: 768px)
+#searchAndSelect{ 
+	margin: 8px;
+}
+#searchImage{
+	margin-right: 5px;
+	width: 50px;
+	height: 45px;
+	display: block;
+	background: url(../images/searchIcon.png) no-repeat;
+	background-size: 50px 45px;
+	float: left;
+}
+#selectAnimal{
+	width:150px;
+	height: 50px;
+	margin-left: 6px;
+	float: left;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #f3f3f3;
+	border: 0.4px solid #f3f3f3;
+}
+#icons{
+	position: absolute;
+	top:0;
+	right:0;
+	margin-right: 7px;
+	float: right;
+
+}
+.icon{
+	margin-right: 15px;
+}
+.box{
+	height: 358px;
+}
+#medicalFile{
+	background-color: #ebebeb;
+}
+#clickOnMedical{
+	display: none;
+	height: 516px;
+	background-color: #ebebeb;
+	padding-top: 100px;
+}
+.iconAndText{
+	display: inline-block;
+	margin: 70px;
+	font-size: 40px;
+}
+.iconAndText > i{
+	font-size: 110px;
+}
+#education{
+	background-color: #f7f6f6;
+}
+#vaccine{
+	background-color: #ebebeb;
+}
+#clickOnVaccine{
+	display: none;
+	height: 516px;
+	background-color: #ebebeb;
+	padding-top: 100px;
+}
+#emergency{
+	background-color: #f7f6f6;
+	color: #d70000;
+}
+.center{
+	text-align: center;
+	padding-top: 100px;
+}
+.headline{
+	font-size: 80px;
+}
+.paragraph{
+	font-size: 40px;
+}
+.higher{
+	height: 650px;
+}
+#displayNone{
+	display: none;
+}
+.custom-select{
+	float:left;
+}
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+}
+.select-selected {
+  background-color: #ffffff;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 30px;
+  right: 10px;
+  width: 0;
+  height: 0px;
+  border: 16px solid transparent;
+  border-color: #000 transparent transparent transparent;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #000 transparent;
+  top: 7px;
+}
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #6f6f6f;
+  /*padding: 8px 16px;*/
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  font-size: 50px;
+}
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #ffffff;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+#sideMenu{
+	display: none;
+	position: absolute;
+	direction: rtl;
+	top: 0;
+	right: 0;
+	width: 85%;
+	height: 2000px;
+	background-color: #eaeaea;
+}
+#sideNav li{
+	font-size: 50px;
+	float: none;
+	margin: 100px;
+}
+
+
+/* -------- */
+#bodyBehavior{
+	background-color: #f7f6f6;
+}
+
+#headerBehavior{
+	width: 100%;
+	height: 280px;
+	margin-top: 26px;
+	font-size: 40px;
+	background-color: #f7f6f6;
+}
+#behaviorWrapper{
+	width: 630px;	
+	margin: 0 auto;
+}
+#menu{
+	padding-top: 50px;
+}
+.boxed {
+    border-radius: 10px;
+    padding: 5px; 
+    width: 300px;
+}
+#box1{
+	 border: 2px solid #ffffff;
+	 background-color: #fffffF;
+	 float: right;
+
+}
+#box2{
+	border: 2px solid #e6e6e6;
+	 background-color: #e6e6e6;
+	 float: right;
+}
+#mainBehavior{
+	text-align: right;
+	margin-right: 12%;
+	position: relative;
+}
+.BehaviorHeadline{
+	font-size: 50px;
+}
+#backIcone{
+	font-size: 40px;
+	position: absolute;
+	right: 50px;
+}
+.massage{
+	font-size: 30px;
+	direction: rtl;
+	margin-right: 3%;
+	font-size: 40px;
+}
+.unread{
+	font-weight: bold;
+}
+#mainBehavior > div{
+	margin-right: 5%;
+	direction: rtl;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+#selectDot{
+	background-color: #202020;
+}
+#movie{
+	margin-top: 70px;
+}
+#films{
+	margin-top: 40px;
+}
+.oneFilm{
+	margin-left: 60px;
+}
+#video{
+	margin-top: 70px;
+	padding-right: 15%;
+}
+#openMassage{
+    border-radius: 5px;
+    width: 850px;
+    height: 600px;
+    position: absolute;
+    background-color: #f2f1f1;
+    right: 1%; 
+    box-shadow: 7px 7px;
+    display: none;
+
+}
+#openMassage > p{
+	font-size: 40px;
+	direction: rtl;
+	margin-top: 5px;
+	margin-right: 6px;
+}
+#openMassage > div{
+	padding-top: 40px;
+	font-size: 40px;
+}
+
+/* ------- */
+
+#mainVac{
+	direction: rtl;
+	text-align: right;
+}
+#title{
+	font-weight: normal;
+}
+#title2{
+	font-weight: normal;
+	font-size: 60px;
+}
+.fa-5x{
+    font-size:10.2em;
+}
+.fa-3x{
+	font-size:8.5em;
+}
+.iconWrap
 {
-	#logoBar{
-		width: 968px;
-	}
+	width:800px;
+	margin: 0 auto;
+}
+.vaccIcon{
+	margin-right: 100px;
+	position: relative;
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	border-radius:400px;
+}
+.Top{
+	margin-right: 0;
+}
+
+.vaccIcon > i{
+	margin-top: 20px;
+	margin-right: 50px;
+}
+.Top > i{
+	margin:0 auto;
+	margin-top:10px;
+}
+.aIcon{
+	width:400px;
+	margin-bottom: 50px;
+	float:right;
+}
+.aIcon > h2{
+	text-align: center;
+	font-size: 50px;
+	font-weight: normal;
+}
+
+.topIcon{
+	width: 200px;
+	margin: 0 auto;
+	font-size: 40px;
+}
+.topIcon > i{
+	font-size: 10px;
+}
+#iconLeft{
+	margin-right: 5px;
+	float: left;
+}
+.vacInfo{
+	direction: rtl;
+}
+.vacInfo > h3 {
+	font-size: 30px;
+}
+.vacInfo > h4 {
+	font-size: 20px;
+}
+.vacInfo > div {
+	font-size: 40px;
+
+}
+h4 > a{
+	text-decoration-line: underline;
+}
+.add{
+	padding-left: 25px;
+	padding-top: 8px;
+}
+.wide{
+/*	width: 600px;*/
+}
+.mid-icon{
+	margin:0 auto;
+}
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+form{
+	direction: rtl;
+	font-size: 45px;
+}
+input{
+	font-size: 44px;
+	height: 90px;
+}
+button{
+	height: 90px;
+}
+button > h2 {
+	font-size: 50px;
 }

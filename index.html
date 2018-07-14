@@ -1,232 +1,92 @@
 <!DOCTYPE html>
 <html lang="he">
-<head>
-	<title>DogON Clinic By Sagi & Netta</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-	<link rel="stylesheet" href="includes/style.css">
-	<script src="includes/js/script_in.js" async></script>
-</head>
-<body>
-	<div class="wrapper">
-		<header>
-			<div id="tools"><p>English<br>מחובר: <u>ד״ר סטפן וייס</u></p></div>
-			<div id="logoBar">
-				<a href="index.html" id="theLogo"></a>
-				<span id="theSearch">
-					<label><input name="search" title="search for clients and patients" placeholder="חיפוש"></label>
-				</span>
-				<nav id="logoNav">
-					<ul>
-						<li><a href="#">+ ביקור חדש</a></li>
-						<li><a href="new_cust.html">+ לקוח חדש</a></li>
-						<li><a href="#">+ תזכורת</a></li>
-						<li id="logOut"><a href="#">התנתק</a></li>
-					</ul>
-				</nav>
+	<head>
+		<title>DogON By Sagi & Netta</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="includes/style.css">
+		<script src="includes/js/main.js" async></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<header>	
+			<div id="tools">
+				<div id="searchAndSelect">
+					<a href="#" id="searchImage"></a>
+					<div class="custom-select" style="width:160px;">
+						<select name ="animal" id="selectAnimal">
+							<option value="dog1">פאי</option>
+							<option value="dog2">נלה</option>
+						</select>
+					</div>
+				</div>
 			</div>
-			<div class="clear"></div><br>
-			<nav id="mainNav">
-				<ul>
-					<li><a href="index.html">דף הבית</a></li><li class="borderNav">|</li>
-					<li><a href="#">לקוחות</a></li><li class="borderNav">|</li>
-					<li><a href="#">בעלי-חיים</a></li><li class="borderNav">|</li>
-					<li><a href="#">ביקורים</a></li><li class="borderNav">|</li>
-					<li><a href="#">יומן</a></li><li class="borderNav">|</li>
-					<li><a href="medicine.html">חיסונים ותרופות</a></li><li class="borderNav">|</li>
-					<li><a href="#">אבחון התנהגות</a></li><li class="borderNav">|</li>
-					<li><a href="#">לקוחות</a></li><li class="borderNav">|</li>
-					<li><a href="#">תזכורות</a></li><li class="borderNav">|</li>
-					<li><a href="#">כלים</a></li><li class="borderNav">|</li>
-					<li><a href="#">הגדרות</a></li>
-				</ul>
-			</nav>
+			<div class="wrapper"><a href="index.html" class="logo"></a></div>
 		</header>
-		<main id="homepage">
-			<span id="breadcrumbs">
-				<a href="index.html">דף הבית</a>&nbsp;>
-			</span>
-			<div id="calendar" class="mainBox">
-				<section class="darkArea">
-					<i class="fa fa-calendar fa-lg icon" aria-hidden="true"></i>
-					<h2>יומן</h2>
+		<main>
+			<div class="box" id="medicalFile">
+				<section class="center">
+					<h1 class="headline">תיק רפואי</h1>
+					<p class="paragraph">יומן חיסונים, תוצאות בדיקות</p>
 				</section>
-				<div class="floatRight" id="selectorName">
-					:מרפאה<br><br><br>:רופא
-				</div>
-				<div class="floatRight">
-					<select>
-					  <option value="doctor1" selected="selected">תל אביב אבן גבירול</option>
-					  <option value="doctor2">תל אביב פלורנטין</option>
-					  <option value="secretary1">פתח תקווה</option>
-					</select>
-					<br><br><br>
-					<select>
-					  <option value="doctor1" selected="selected">ד״ר סטפן וייס</option>
-					  <option value="doctor2">ד״ר אילנה שאול</option>
-					  <option value="secretary1">שולה קדוש</option>
-					  <option value="secretary2">משה גבאי</option>
-					</select>
-				</div>
-				<div class="clear"></div><br><br>
-				<table>
-				  <thead>
-				    <tr>
-				      <td></td>
-				      <td>
-				        <span><b>ראשון</b></span>
-				        <span>1.1.2018</span>
-				      </td>
-				      <td>
-				        <span><b>שני</b></span>
-				        <span>2.1.2018</span>
-				      </td>
-				      <td>
-				        <span><b>שלישי</b></span>
-				        <span>3.1.2018</span>
-				      </td>
-				      <td>
-				        <span><b>רביעי</b></span>
-				        <span>4.1.2018</span>
-				      </td>
-				      <td>
-				        <span><b>חמישי</b></span>
-				        <span>5.1.2018</span>
-				      </td>
-				      <td>
-				        <span class="dayOff"><b>שישי</b></span>
-				        <span class="dayOff">6.1.2018</span>
-				      </td>
-				      <td>
-				        <span class="dayOff"><b>שבת</b></span>
-				        <span class="dayOff">7.1.2018</span>
-				      </td>
-				    </tr>
-				  </thead>
-				  <tbody>
-				    <tr>
-				      <td class="hour" rowspan="1"><span>8:00</span></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				    </tr>
-				    <tr>
-				      <td class="hour" rowspan="1"><span>9:00</span></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				    </tr>
-				    <tr>
-				      <td class="hour" rowspan="1"><span>10:00</span></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				    </tr>
-				    <tr>
-				      <td class="hour" rowspan="1"><span>11:00</span></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				    </tr>
-				    <tr>
-				      <td class="hour" rowspan="1"><span>12:00</span></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				    </tr>
-				    <tr>
-				      <td class="hour" rowspan="1"><span>13:00</span></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				    </tr>
-				    <tr>
-				      <td class="hour" rowspan="1"><span>14:00</span></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				    </tr>
-				    <tr>
-				      <td class="hour" rowspan="1"><span>15:00</span></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				      <td class="calBox"></td>
-				    </tr>
-				  </tbody>
-				</table>
 			</div>
-			<div id="clients" class="mainBox">
-				<div class="smallBoxes">
-					<div class="smallBox">
-						<p class="centerText"><a href="#">רשימת לקוחות</a></p>
+			<div id="clickOnMedical">
+				<section class="higher">
+					<a href="#"><h1 class="headline" id="file">תיק רפואי</h1></a>
+					<div>
+						<a href="#"><section class="iconAndText">
+							<i class="fa fa-user-md fa-5x" aria-hidden="true"></i>
+							<h2>תוצאות בדיקות</h2>
+						</section></a>
+						<a href="vaccine.php"><section class="iconAndText">
+							<i class="fa fa-medkit fa-5x" aria-hidden="true"></i>
+							<h2>יומן חיסונים</h2>
+						</section></a>
 					</div>
-					<div class="smallBox addNew">
-						<p class="centerText"><a href="new_cust.html">+ לקוח חדש</a></p>
-					</div>
-				</div>
-				<section class="darkArea">
-					<i class="fa fa-user fa-lg icon" aria-hidden="true"></i>
-					<h2>לקוחות</h2>
 				</section>
-				<label><input name="search" title="search for clients and patients" placeholder="חיפוש לפי שם לקוח" class="boxSearch"></label>
 			</div>
-			<div id="animals" class="mainBox">
-				<div class="smallBoxes">
-					<div class="smallBox">
-						<p class="centerText"><a href="#">רשימת בעלי חיים</a></p>
-					</div>
-					<div class="smallBox addNew">
-						<p class="centerText"><a href="#">+ בעל חיים חדש</a></p>
-					</div>
-				</div>
-				<section class="darkArea">
-					<i class="fa fa-paw fa-lg icon" aria-hidden="true"></i>
-					<h2>בעלי חיים</h2>
+			<div class="box" id="education">
+				<section class="center">
+					<a href="behavior.html"><h1 class="headline">התנהגות וחינוך</h1></a>
+					<p class="paragraph">אבחון וייעוץ, המלצות, סרטוני<br><p class="paragraph">הדרכה</p>
 				</section>
-				<label><input name="search" title="search for clients and patients" placeholder="חיפוש לפי בעל חיים" class="boxSearch"></label>
 			</div>
+			<div class="box" id="vaccine">
+				<section class="center">
+					<h1 class="headline">זימון תורים</h1>
+					<p class="paragraph">תור לחיסון, תור לבדיקה, פגישת אבחון<br><p class="paragraph">וייעוץ</p>
+				</section>
+			</div>
+			<div id="clickOnVaccine">
+				<section class="higher">
+					<a href="#vac"><h1 class="headline" id="vac">זימון תורים</h1></a>
+					<div>
+						<a href="#"><section class="iconAndText">
+							<i class="fa fa-pencil fa-5x" aria-hidden="true"></i>
+							<h2>לבטל או לעדכן תור</h2>
+						</section></a>
+						<a href="#"><section class="iconAndText">
+							<i class="fa fa-user-md fa-5x" aria-hidden="true"></i>
+							<h2>הזמן תור</h2>
+						</section></a>
+					</div>
+				</section>
+			</div>
+			<div class="box" id="emergency">
+				<section class="center">
+					<h1 class="headline">חירום</h1>
+				</section>
+			</div>
+
+
 			<div id="sideMenu">
+				<div class="wrapper"><a href="index.html" class="logo"></a></div>
 				<nav id="sideNav">
 				<ul>
 					<li><a href="index.html"><b>דף הבית</b></a></li>
 					<li><a href="#">לקוחות</a></li>
 					<li><a href="#">בעלי-חיים</a></li>
 					<li><a href="#">ביקורים</a></li>
-					<li><a href="#">יומן</a></li>
+					<li><a href="vaccine.html">יומן</a></li>
 					<li><a href="medicine.html">חיסונים ותרופות</a></li>
 					<li><a href="#">אבחון התנהגות</a></li>
 					<li><a href="#">לקוחות</a></li>
@@ -236,14 +96,15 @@
 				</ul>
 			</nav>
 			</div>
-			<div class="container" id="hamburger" onclick="myFunction(this)">
-			  <div class="bar1"></div>
-			  <div class="bar2"></div>
-			  <div class="bar3"></div>
-			</div>
-			<div class="clear"></div>
+				<div id="icons">
+					<a class="icon" id="icon1"><i class="fa fa-envelope-o fa-4x" aria-hidden="true"></i></a>
+					<a class="icon" id="icon2"><i class="fa fa-phone fa-4x" aria-hidden="true"></i></a>
+					<div class="container" id="hamburger" onclick="myFunction(this)">
+					  <div class="bar1"></div>
+					  <div class="bar2"></div>
+					  <div class="bar3"></div>
+					</div>
+				</div>
 		</main>
-		<footer><br><b>DogON - Clinic</b><br>&copy;כל הזכויות שמורות</footer>
-	</div>
-</body>
+	</body>
 </html>
