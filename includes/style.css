@@ -507,3 +507,10 @@ button{
 button > h2 {
 	font-size: 50px;
 }
+#incoming h2{
+	font-size: 60px;
+}
+#incoming{
+	font-size: 60px;
+	font-weight: normal;
+}

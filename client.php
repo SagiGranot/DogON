@@ -61,7 +61,7 @@
 					        <span><b>שם החיסון</b></span>
 					      </td>
 					      <td>
-					        <span><b>מועד הבא לחיסון</b></span>
+					        <span><b>תאריך:</b></span>
 					      </td>
 					    </tr>
 					  </thead>
